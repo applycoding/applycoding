@@ -1,31 +1,30 @@
-# Hi, I'm Arpan Bom
+# Hi, I'm Arpan 👋
 
-**Senior Software Engineer: AI and LLM systems, full stack, mobile and robotics.** Kathmandu, Nepal.
+**Robotics and AI engineer: humanoids, drones, edge AI and LLMs.** I build things, then write a tutorial on how I built them.
 
-I have shipped software since 2011, mostly for startups, as an engineer and project manager. At Vision One Tech (USA, remote) since 2022 I build production LLM systems and led the software stack for **Titan**, a humanoid robot on NVIDIA Jetson AGX Thor and ROS2 (Army xTech Humanoid finalist). I also build autonomous drone software and Flutter apps for iOS and Android.
+I wrote my first code in 2004, at 14, and every time something new came along, I wanted to learn it. I started with QBasic, C and C++, learning how memory and machines really work. In 2005 PHP got my first web apps online. I picked up Go in 2011 while it was still new, and in 2012, as smartphones took off, I moved into mobile with Android and iOS apps, alongside Laravel on the web. In 2014 came TypeScript and Python, and Python later carried me into data, machine learning and LLMs. In 2016 Rust became my choice when safety and performance both matter. Along the way, C#, .NET and Java with Spring Boot, plus SQL Server and Azure, covered enterprise work. Today that curiosity has taken me into robotics, drones and humanoids, including **leading the software stack for Titan, a humanoid robot on NVIDIA Jetson AGX Thor and ROS 2 (Army xTech Humanoid finalist)**.
 
-Most of my production work (Vision One humanoid and drone systems, client apps) is private or under NDA, so these public repos are focused demos of the same skills.
+Over the years I've shipped work for companies, startups and private clients as an engineer and project manager: web and mobile apps, fintech and POS systems, production LLM systems, autonomous drones, and robotics.
 
-**Portfolio:** https://applycoding.github.io &nbsp;·&nbsp; **LinkedIn:** https://www.linkedin.com/in/apply-coding/ &nbsp;·&nbsp; **Email:** applycoding@gmail.com
+These repos are things I build because I love building them: robots, drones, AI and the odd experiment. I also love teaching others how things work, so each one comes with a "how I built it" tutorial on [applycoding.com](https://applycoding.com). Come say hi there.
 
-## Focus areas
+## Things I've built (and how)
 
-- **AI and LLM systems:** RAG, agents with tool use, MCP, evaluation, guardrails, monitoring, LoRA fine-tuning, local models
-- **Full stack and cloud:** Python, TypeScript, React, Next.js, Node.js, FastAPI, PostgreSQL, AWS, Azure, GCP, Cloudflare Workers, Docker, CI/CD
-- **Mobile:** Flutter/Dart for iOS and Android, native Android (Kotlin), BLE, offline-first sync
-- **Robotics and edge AI:** ROS2, Nav2, SLAM, Gazebo, PX4, NVIDIA Jetson, real-time computer vision
+| Project | What it is | Tutorial |
+|---|---|---|
+| [humanoid-arm-teleop](https://github.com/applycoding/humanoid-arm-teleop) | Browser teleop for a simulated 6-DOF humanoid arm: 50 Hz control loop, damped least-squares IK, safety pipeline, three.js URDF viewer | [How I built it](https://applycoding.com/tutorials/humanoid-arm-teleop-ik-urdf-viewer) |
+| [cpp-flight-controller](https://github.com/applycoding/cpp-flight-controller) | Modern C++20 quadrotor flight control: PID attitude loops, Kalman and complementary sensor fusion, GoogleTest | [How I built it](https://applycoding.com/tutorials/cpp20-quadrotor-flight-controller) |
+| [ros2-vision-tracking-demo](https://github.com/applycoding/ros2-vision-tracking-demo) | ROS 2 YOLO detection with a ByteTrack-style Kalman + IoU tracker, CPU only | [How I built it](https://applycoding.com/tutorials/ros2-yolo-bytetrack-vision-tracking) |
+| [robot-learning-vla-demo](https://github.com/applycoding/robot-learning-vla-demo) | SimReach: language-conditioned arm reaching, behaviour cloning vs PPO vs a small VLA policy | [How I built it](https://applycoding.com/tutorials/simreach-behavior-cloning-ppo-vla-arm) |
+| [ros2-voice-command-robot](https://github.com/applycoding/ros2-voice-command-robot) | Talk to a robot: VAD, speech-to-text and local-LLM intent parsing driving Nav2 goals in Gazebo | [How I built it](https://applycoding.com/tutorials/ros2-nav2-voice-command-robot) |
+| [edge-yolo-tensorrt](https://github.com/applycoding/edge-yolo-tensorrt) | Fine-tuned YOLO exported to ONNX and TensorRT, with Jetson benchmarking scripts | [How I built it](https://applycoding.com/tutorials/edge-yolo-onnx-tensorrt-jetson) |
 
-## Top projects
+More tutorials (browser teleop console, offline voice assistant, MCP server, LoRA fine-tuning, payments ledger) are on [applycoding.com/tutorials](https://applycoding.com/tutorials).
 
-| Project | What it shows |
-| --- | --- |
-| [ai-receipt-tracker](https://github.com/applycoding/ai-receipt-tracker) | Flagship monorepo: Next.js web, Flutter mobile, TypeScript API, auth, Stripe test mode, LLM receipt extraction |
-| [agent-guardrails-observability](https://github.com/applycoding/agent-guardrails-observability) | LangGraph agent with guardrails, OpenTelemetry tracing, evals and a red-team suite in CI |
-| [ros2-voice-command-robot](https://github.com/applycoding/ros2-voice-command-robot) | Voice commands (VAD, STT, local LLM intent) driving Nav2 goals in Gazebo |
-| [llm-serving-finetune-lab](https://github.com/applycoding/llm-serving-finetune-lab) | OpenAI-compatible serving over vLLM, LoRA/QLoRA, load tests, Helm with HPA |
-| [kmp-compose-swiftui-pos](https://github.com/applycoding/kmp-compose-swiftui-pos) | Kotlin Multiplatform POS: Jetpack Compose, Room offline-first, SwiftUI client |
-| [react-ts-fleet-dashboard](https://github.com/applycoding/react-ts-fleet-dashboard) | React and TypeScript live fleet map ([live demo](https://applycoding.github.io/react-ts-fleet-dashboard/)) |
-| [px4-drone-mission-planner](https://github.com/applycoding/px4-drone-mission-planner) | PX4 survey-grid planner with geofence and energy checks, MAVSDK upload |
-| [offline-voice-assistant](https://github.com/applycoding/offline-voice-assistant) | On-device speech-to-text, local LLM and text-to-speech |
+## Tools I reach for
 
-All public repositories here are open-source portfolio demos; each README says what is simulated or mocked. Client and employer work is private.
+**Robotics and edge:** ROS 2, Nav2, Gazebo, PX4/MAVLink, NVIDIA Jetson, TensorRT, OpenCV · **Languages:** C, C++, Rust, Python, Go, TypeScript, Kotlin, Dart, C#, Java, PHP · **AI:** LLMs, RAG, agents, evals, fine-tuning · **Apps and cloud:** Flutter, Android, iOS, React, Next.js, FastAPI, .NET, Spring Boot, PostgreSQL, SQL Server, AWS, Azure, Cloudflare
+
+---
+
+[applycoding.com](https://applycoding.com) · [Tutorials](https://applycoding.com/tutorials) · [LinkedIn](https://www.linkedin.com/in/apply-coding/)
