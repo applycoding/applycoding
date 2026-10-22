@@ -1,6 +1,6 @@
 # Hi, I'm Arpan Bom
 
-**Senior Software Engineer: AI and LLM systems, full stack, mobile and robotics.** Kathmandu, Nepal. Open to remote work and relocation.
+**Senior Software Engineer: AI and LLM systems, full stack, mobile and robotics.** Kathmandu, Nepal.
 
 I have shipped software since 2011, mostly for startups, as an engineer and project manager. At Vision One Tech (USA, remote) since 2022 I build production LLM systems and led the software stack for **Titan**, a humanoid robot on NVIDIA Jetson AGX Thor and ROS2 (Army xTech Humanoid finalist). I also build autonomous drone software and Flutter apps for iOS and Android.
 
