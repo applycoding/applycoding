@@ -4,6 +4,8 @@
 
 I have shipped software since 2011, mostly for startups, as an engineer and project manager. At Vision One Tech (USA, remote) since 2022 I build production LLM systems and led the software stack for **Titan**, a humanoid robot on NVIDIA Jetson AGX Thor and ROS2 (Army xTech Humanoid finalist). I also build autonomous drone software and Flutter apps for iOS and Android.
 
+Most of my production work (Vision One humanoid and drone systems, client apps) is private or under NDA, so these public repos are focused demos of the same skills.
+
 **Portfolio:** https://applycoding.github.io &nbsp;·&nbsp; **LinkedIn:** https://www.linkedin.com/in/apply-coding/ &nbsp;·&nbsp; **Email:** applycoding@gmail.com
 
 ## Focus areas
